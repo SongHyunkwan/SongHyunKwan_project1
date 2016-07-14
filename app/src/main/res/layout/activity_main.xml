@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    tools:context="com.example.myapplicationtesting.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="195dp"
+                android:layout_height="140dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Peak "
+                android:textSize="40dp"
+                android:gravity="right|center"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/thepeakpram_image" />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="195dp"
+                android:layout_height="140dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text=" Tram"
+                android:textSize="40dp"
+                android:gravity="left|center"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/image2" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="195dp"
+                android:layout_height="140dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Obser"
+                android:textSize="40dp"
+                android:gravity="right|center"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/images" />
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="195dp"
+                android:layout_height="140dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="vation"
+                android:textSize="40dp"
+                android:gravity="left|center"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/image1" />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="View"
+            android:textSize="40dp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/image3" />
+    </LinearLayout>
+</RelativeLayout>
